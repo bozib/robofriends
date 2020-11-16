@@ -28,6 +28,7 @@ class App extends Component {
             robots: []
             }
     }
+    
     componentDidMount() { 
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(response => response.json())
@@ -56,6 +57,7 @@ class App extends Component {
         </ErrorBoundry>
         </Scroll>
         </div>
+        
 
     );
       }
